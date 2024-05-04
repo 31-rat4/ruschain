@@ -1,0 +1,2 @@
+# ruschain
+Simple RUST blockchain
