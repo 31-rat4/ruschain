@@ -10,5 +10,5 @@ fn print_type_of<T>(_: &T) {
 fn main() {
     let teste: BlockChain = BlockChain::new();
     let ve1 = teste.blocks;
-    print_type_of(&ve1);
+    println!("First block timestamp: {}", ve1[0].timestamp);
 }
