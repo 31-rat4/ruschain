@@ -8,7 +8,10 @@ fn print_type_of<T>(_: &T) {
 }
 
 fn main() {
-    let teste: BlockChain = BlockChain::new();
-    let ve1 = teste.blocks;
-    println!("First block timestamp: {}", ve1[0].timestamp);
+    let mut teste: BlockChain = BlockChain::new();
+    teste.create_new_block();
+    teste.create_new_block();
+    teste.create_new_block();
+    let ve1 = teste.chain;
+    println!("First block timestamp: {:?}", ve1);
 }
