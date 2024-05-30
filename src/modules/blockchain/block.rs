@@ -15,6 +15,7 @@ impl Block {
                 panic!("Error: {e:?}");
             }
         };
+
         Self {
             id,
 
