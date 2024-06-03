@@ -1,4 +1,4 @@
 # ruschain
 Simple RUST blockchain
 
-Zolf
+Dai
